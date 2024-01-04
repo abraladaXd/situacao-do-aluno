@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,400&display=swap');
+
+body {
+    background-color:#ccc;
+    background: linear-gradient(to right, #b8adf1,
+    #ccc);
+}
+.flex {
+    display: grid;
+    text-align: center;
+    padding: 20px;
+}
+
+.box {
+    font-size: 20px;
+    border-radius: 2px;
+    
+    margin-bottom: 10px;
+    color: #000000;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    background-color: #524980;
+    border-radius: 10px;
+}
+.container-dados input{
+    color:black;
+    background-color: white;
+    border-radius: 5px;
+    outline:none;
+    
+}
+#btSituacao {
+    height: 30px;
+    width: 70px;
+    background-color: blueviolet;
+    color: #ffffff;
+    border: #524980;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.resultado {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+
